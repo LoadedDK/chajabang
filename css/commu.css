@@ -1,0 +1,68 @@
+/* 폰트설정 */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body, th, td, select, input, button, textarea {
+font-family:"나눔고딕", "NanumGothic", "ngeot", "돋움", "DotumChe", "Dotum";
+}
+
+/* 전체 레이아웃 */
+#wrap {
+width: 100%;
+}
+#title {
+font-size: 16pt;
+color: #4374D9;
+}
+	#title p {
+	margin-top: 8px;
+	color: #999;
+	font-size: 10pt;
+	}
+
+	#input_content_left {
+	float: left;
+	}
+	#input_content_right {
+	float: left;
+	margin-left: 10px;
+	}
+#body {
+width:800px;
+float: left;
+}
+	.comment_list {
+	float: left;
+	width: 800px;
+	min-height: 100px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	}
+		#left {
+		padding-top: 15px;
+		width: 80px;
+		float: left;
+		}
+		#right_a {
+		width: 720px;
+		float:left;
+		}
+			#name {
+			}
+			#text_b {
+			margin-top: 8px;
+			padding: 10px;
+			padding-top: -20px;
+			width: 700px;
+			min-height: 40px;
+			background-color: #FFFFDF;
+			}
+			#text_b  {word-break:break-all;}
+			#text {
+			margin-top: 8px;
+			padding: 10px;
+			padding-top: -20px;
+			width: 700px;
+			min-height: 40px;
+			background-color: #E7E7E7;
+			}
+			#text  {word-break:break-all;}
+			

@@ -1,0 +1,59 @@
+/* 폰트설정 */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body, th, th, td, select, input, button, textarea {
+font-family:"나눔고딕", "NanumGothic", "ngeot", "돋움", "DotumChe", "Dotum";
+}
+
+/* 전체 레이아웃 */
+html, body, ul, li, button {
+margin: 0;
+padding: 0;
+}
+img {
+display: block;
+border: 0;
+}
+button {
+border:0;
+background:none;
+}
+
+
+/*로고 디자인*/
+.logo {
+width:100%;
+margin: 20px 0 0 0;
+text-align: center;
+}
+#logo_top {
+font-family: 'Hanna', sans-serif;
+font-size: 40pt;
+color: #333333;
+letter-spacing: 5px;
+}
+	.logo_o {
+	color: orange;
+	}
+#logo_bottom {
+margin-top: 5px;
+font-size: 9pt;
+color: #666666;
+letter-spacing: -1px;
+}	
+
+#body {
+width: 610px;
+padding: 0 20px 0 20px;
+line-height: 20pt;
+text-align:justify;
+font-size:11pt;
+color: #333;
+}
+#footer {
+width: 610px;
+background-color: #cccccc;
+margin: 20px 20px 0 20px;
+padding: 5px;
+font-size:11pt;
+color: #333;
+}

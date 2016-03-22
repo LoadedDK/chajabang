@@ -1,0 +1,107 @@
+/* 폰트설정 */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body, th, th, td, select, input, button, textarea {
+font-family:"나눔고딕", "NanumGothic", "ngeot", "돋움", "DotumChe", "Dotum";
+}
+
+/* 전체 레이아웃 */
+html, body, ul, li, button {
+margin: 0;
+padding: 0;
+}
+img {
+display: block;
+border: 0;
+}
+button {
+border:0;
+background:none;
+}
+
+
+/*로고 디자인*/
+.logo {
+width:100%;
+margin: 10px 0 10px 0;
+text-align: center;
+}
+#logo_top {
+font-family: 'Hanna', sans-serif;
+font-size: 20pt;
+color: #333333;
+letter-spacing: 5px;
+}
+	.logo_o {
+	color: orange;
+	}
+#logo_bottom {
+margin-top: 5px;
+font-size: 9pt;
+color: #666666;
+letter-spacing: -1px;
+}	
+
+#body_title {
+height: 50px;
+text-align:center;
+margin-top:20px;
+margin-bottom: 20px;
+}
+
+#content {
+margin: 0 auto;
+width:760px;
+margin-top: 20px;
+padding: 20px;
+}
+	#content_title {
+	margin-bottom: 20px;
+	}
+	#content_table table {
+	border-top: 2px solid #666;
+	border-bottom: 2px solid #666;
+	}
+		
+		#content_table table th {
+		font-size:10pt;
+		font-weight: 500;
+		color: #333;
+		border-bottom: 1px solid #cccccc;
+		background-color: #edebeb;
+		}
+		
+		#content_table table td {
+		font-size:10pt;
+		color: #333;
+		border-bottom: 1px solid #cccccc;
+		}
+
+/*슬라이더*/
+.slide {
+width:600px;
+overflow:hidden;
+margin: 0 auto;
+position:relative;
+}
+.slide ul {
+width: 2400px;
+list-style: none;
+font-size: 0;
+}
+.slide ul li {
+display: inline-block;
+}
+.slide button.prev {
+position:absolute;
+left:10px;
+top: 165px;
+}
+.slide button.next {
+position:absolute;
+right:10px;
+top: 165px;
+}
+
+#wrap {
+width: 100%;
+}

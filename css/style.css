@@ -1,0 +1,290 @@
+/* 폰트설정 */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body, th, td, select, input, button, textarea {
+font-family:"나눔고딕", "NanumGothic", "ngeot", "돋움", "DotumChe", "Dotum";
+}
+
+/* 전체 레이아웃 */
+* {
+margin: 0;
+}
+#wrap {
+width: 100%;
+display: block;
+/*width: 1000px;*/
+}
+	#head {
+	width: 100%;
+	height: 350px;
+	}
+		#head_top {
+		width: 100%;
+		min-width: 1000px;
+		height: 100px;
+		border-bottom: 1px solid #bbbbbb;
+		}
+			#head_top_logo {
+			width:180px;
+			height: 80px;
+			padding: 20px 0 0 20px;
+			text-align: center;
+			float:left;
+			position: relative;
+			}
+				/*로고 디자인*/
+				#logo_top {
+				font-family: 'Hanna', sans-serif;
+				font-size: 32pt;
+				color: #333333;
+				letter-spacing: 5px;
+				}
+					.logo_o {
+					color: orange;
+					}
+				#logo_bottom {
+				margin-top: 5px;
+				font-size: 9pt;
+				color: #666666;
+				letter-spacing: -1px;
+				}
+			#head_top_util {
+			width:700px;
+			height: 78px;
+			padding: 22px 0 0 20px;
+			float: left;
+			position: relative;
+			}
+				#util_menu {
+				font-size: 9pt;
+				color: #666666;
+				}
+					#util_menu a {
+					font-size: 9pt;
+					color: #666666;
+					text-decoration: none;
+					}
+				#commu {
+				margin-top: 10px;
+				}
+	#head_bottom {
+		width: 100%;
+		min-width: 1000px;
+		height: 200px;
+		}
+			#head_bottom_content {
+			width: 960px;
+			height: 180px;
+			padding-top: 20px;
+			float: left;
+			font-size: 10pt;
+			color: #555555;
+			font-weight: 500;
+			text-align: left;
+			}
+				#head_bottom_content a {
+				font-size: 10pt;
+				color: #fff;
+				margin-bottom: 5px;
+				padding: 5px 10px 5px 10px;
+				border-radius: 3px 3px 3px 3px;
+				background: #7D9C36;
+				text-decoration: none;
+				}
+				#option {
+				min-width: 1000px;
+				padding-left: 20px;
+				height: 150px;
+				position: relative;
+				}
+				#option ul {
+				float:left;
+				width: 500px;
+				list-style: none;	
+				margin: 0;
+				padding: 0;
+				}
+				#option ul li {
+				float: left;
+				margin-bottom: 8px;
+				}
+
+					.option_left {
+					width: 90px;
+					float: left;
+					text-align: left;
+					}
+					
+					.option_right {
+					float: left;
+					line-height: 22px;
+					text-align: left;
+					}
+						.option_bold {
+						font-weight: 500;
+						font-size: 11pt;
+						color: #333333;
+						}
+						.option_check {
+						margin: 0 15px 0 0;
+						font-size: 11pt;
+						color: #666666;
+						}
+					.option_check input[type="checkbox"] {
+					width: 18px;
+					height: 18px;
+					vertical-align: -4px;
+					margin: 0;
+					padding: 0;
+					}
+				#option_submit {
+
+				padding: 5px 0 0 0;
+				width: 760px;
+				height: 65px;
+				float: left;
+				text-align: left;
+				}
+					#option_submit input[type="submit"] {
+					width: 500px;
+					height: 30px;
+					margin: 0;
+					padding: 0;
+					border-radius: 0;
+					background: orange;
+					border: 1px solid #cc9966;
+					color: #333333;
+					font-weight: 500;
+					}
+	/*중앙 영역*/
+	#body {
+	outline: #bbbbbb solid 1px;
+	width: 100%;
+	height: 600px;
+	margin-top: 0px;
+	position: relative;
+	}
+	#con {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	top: 0px;
+	width: 100%;
+	}
+	
+	#map_legend {
+	width: 180px;
+	height: 30px;
+	background-color: rgba(255,255,255,0.9);
+	border: 1px solid #777;
+	z-index: 2;
+	position: absolute;
+	top: 10px; left:10px;
+	padding: 8px;
+	}
+	
+	#map_legend p {
+	font-size: 10pt;
+	color: #666;
+	font-weight: 500;
+	vertical-align: middle;
+	}
+	
+	#Map {
+	z-index: 1;
+	}
+	
+		#map_area {
+		position: absolute;
+		left: 0;
+		top: 0;
+		right: 350px;
+		bottom: 0;
+		background: repeat 0 0;
+		border-right: 1px solid #bbb;
+		}
+		#Map {
+		width: 100%;
+		height: 600px;
+		position: relative;
+		overflow: hidden;
+		}
+		#right_result {
+		position: absolute;
+		right:0;
+		top:0;
+		bottom:0;
+		width:350px;
+		height: 600px;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		background-color: #ffffff;
+		}
+		/* 우측결과 영역*/	
+		#result ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		}
+			#result ul li {
+			width: 350px;
+			height: 100px;
+			border-bottom: 1px solid #bbbbbb;
+			}
+				
+				.result_r_img {
+				width: 90px;
+				padding: 10px 0 0 10px;
+				float: left;
+				}
+				.result_r_content {
+				width:250px;
+				height:100px;
+				float:left;
+				}
+					.result_r_title {
+					padding: 7px 0 0 5px;
+					width:245px;
+					font-size: 13pt;
+					font-weight: bold;
+					color: #333333;
+					}
+					.result_r_text {
+					width: 245px;
+					padding: 5px 0 0 5px;
+					font-size: 9.5pt;
+					line-height: 19px;
+					white-space: nowrap;
+					overflow: hidden;
+					text-overflow: ellipsis;
+					}
+						.result_r_text_addr {
+						color: #3366cc;
+						font-weight: bold;
+						}
+						.result_r_text_price {
+						color: #333;
+						}
+						.result_r_text_comment{
+						color: #888888;
+						}
+	
+	/*하단 영역*/
+	#footer {
+	margin: 20px 0 0 20px;
+	width: 90%;
+	height: 50px;
+	position: relative;
+	}
+		#copy {
+		font-size: 10pt;
+		color: #666666;
+		}
+		#footer_menu {
+		margin-top: 5px;
+		font-size: 10pt;
+		color: #666666;
+		}
+		#footer_menu a {
+		color: #666666;
+		}

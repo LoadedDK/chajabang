@@ -1,0 +1,336 @@
+/* 폰트설정 */
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+body, th, td, select, input, button, textarea {
+font-family:"나눔고딕", "NanumGothic", "ngeot", "돋움", "DotumChe", "Dotum";
+}
+
+/* 전체 레이아웃 */
+* {
+margin: 0;
+}
+#wrap {
+width: 100%;
+}
+/*로고 디자인*/
+.logo {
+width:100%;
+margin: 20px 0 20px 0;
+text-align: center;
+}
+#logo_top {
+font-family: 'Hanna', sans-serif;
+font-size: 32pt;
+color: #333333;
+letter-spacing: 5px;
+}
+	.logo_o {
+	color: orange;
+	}
+#logo_bottom {
+margin-top: 5px;
+font-size: 9pt;
+color: #666666;
+letter-spacing: -1px;
+}
+#head {
+width: 100%;
+padding-top: 15px;
+height: 35px;
+background-color: #ffcc00;
+font-size: 13pt;
+color: #333;
+text-align: center;
+font-weight: 700;
+}
+/*버튼*/
+#btn_area {
+margin: 0 auto;
+margin-top: 30px;
+width: 450px;
+text-align: left;
+}
+/*취소버튼*/
+#btn_can {
+width: 100%;
+margin-top: 100px;
+text-align: center;
+}
+	#btn_can input[type="button"] {
+	height:40px;
+	width:200px;
+	border: 0px;
+	background-color: #bbb;
+	font-size: 13pt;
+	color: #fff;
+	}
+#btn_area_a {
+width:420px;
+padding: 15px;
+height:50px;
+background-color: #eee;
+margin-bottom: 20px;
+}
+
+#btn_area_b {
+width:420px;
+padding: 15px;
+height:50px;
+background-color: #eee;
+margin-bottom: 10px;
+}
+	#btn_area a {
+	font-size: 13pt;
+	color: #333333;
+	text-decoration: none;
+	font-weight: 500;
+	}
+	.font_figure {
+	color:#ff6600;
+	}
+	.font_comment {
+	font-size: 12pt;
+	color:#666;
+	}
+
+/*회원가입 폼*/
+#user_join {
+width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+}
+	#user_join p {
+	font-weight: 500;
+	color: #333;
+	font-size: 12pt;
+	}
+	#user_join input[type="text"] {
+	height:30px;
+	border:1px solid #bbb;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #666666;
+	}
+	#user_join input[type="password"] {
+	height:30px;
+	border:1px solid #bbb;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #666666;
+	}
+.font_user_join_a {
+font-size: 12pt;
+font-weight: 500;
+color: #333333;
+}
+
+/*로그인 폼*/
+#user_login {
+width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+}
+	#user_login input[type="text"] {
+	height:40px;
+	width:350px;
+	border:3px solid #bbb;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #666666;
+	}
+	#user_login input[type="password"] {
+	height:40px;
+	width:350px;
+	border:3px solid #bbb;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #666666;
+	}
+	#find {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	text-align: center;
+	}
+		#find p {
+		margin-bottom: 5px;
+		}
+			#find p a {
+			color:#4374D9;
+			font-size: 11pt;
+			}
+#btn_ok {
+width: 100%;
+margin-top: 20px;
+text-align: center;
+}
+	#btn_ok input[type="button"] {
+	height:40px;
+	width:200px;
+	border: 0px;
+	background-color: #bbb;
+	font-size: 13pt;
+	color: #fff;
+	}
+.font_user_login {
+font-size: 14pt;
+font-weight: 500;
+color: #666666;
+}
+/*회원 방관리*/
+#room_admin {
+}
+	#room_admin #head {
+	text-align:left;
+	padding-left: 20px;
+	}
+	#room_admin #body {
+	margin: 20px 0 0 20px;
+	}
+	#body_title {
+	font-size: 12pt;
+	color: #3366cc;
+	font-weight: 500;
+	margin-bottom: 10px;
+	}
+		.body_title_f {
+		color: orange;
+		}
+	#body_content {
+	font-size: 9pt;
+	color: #333;
+	}
+		.disc {
+		font-size: 9pt;
+		color: #777;
+		}
+		.unit {
+		font-size: 10pt;
+		font-weight: bold;
+		color: #3163C9;;
+		}
+		#body_content p {
+		font-size: 12pt;
+		color: #333;
+		font-weight: 500;
+		margin-bottom: 5px;
+		}
+	#body_btn {
+	width: 100%;
+	margin: 20px 0 20px 0;
+	text-align: center;
+	}
+	#room_admin_table table {
+	margin-top: 20px;
+	}
+		#room_admin_table th {
+		background-color: #336699;
+		color: #fff;
+		font-size: 10pt;
+		text-align:center;
+		}
+		#room_admin_table td {
+		color: #333;
+		font-size: 11pt;
+		text-align: center;
+		padding: 5px;
+		}
+		.font_thum {
+		font-size: 10pt;
+		color: #333399;
+		}
+		.font_photo_bold {
+		font-size: 10pt;
+		font-weight: 500;
+		}
+		
+		
+/*room_view*/
+#room_view_table table {
+margin-top: 20px;
+border-collapse:collapse;
+border-color: #eee;
+}
+	#room_view_table th {
+	background-color: #999;
+	color: #fff;
+	font-size: 12pt;
+	text-align: center;
+	font-weight: 400;
+	}
+	#room_view_table td {
+	color: #333;
+	font-size: 12pt;
+	text-align: center;
+	padding: 10px;
+	}
+	#room_view_table ul {
+	list-style: none;
+	}
+		#room_view_table ul li {
+		padding: 0;
+		margin: 0;
+		float: left;
+		width: 250px;
+		margin-right: 10px;
+		}
+			#room_view_table ul li p {
+			font-size: 11pt;
+			font-weight: 500;
+			margin-bottom: 10px;
+			}
+	
+	
+/*회원수정 폼*/
+#user_modify {
+width: 500px;
+margin: 0 auto;
+margin-top: 20px;
+text-align: center;
+}
+	#user_modify p {
+	font-weight: 500;
+	color: #333;
+	font-size: 12pt;
+	}
+	#user_modify input[type="text"] {
+	height:40px;
+	width:350px;
+	border:1px solid #bbb;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #666666;
+	}
+	#user_modify input[type="password"] {
+	height:40px;
+	width:350px;
+	border:1	px solid #bbb;
+	font-size: 14pt;
+	font-weight: bold;
+	color: #666666;
+	}
+.font_user_modify_a {
+font-size: 12pt;
+font-weight: 500;
+color: #333333;
+}
+
+/*찾아방 인트로 영역*/
+#intro_body {
+background-color: #eee;
+padding: 20px;
+margin: 40px;
+}
+	#intro_body p {
+	font-size: 12pt;
+	line-height: 20pt;
+	}
+#intro_bottom {
+background-color: #fff;
+padding-left: 20px;
+margin: 20px 40px 0 40px;
+}
+	#intro_bottom p {
+	font-size: 11pt;
+	line-height: 16pt;
+	}
